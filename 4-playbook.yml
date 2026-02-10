@@ -1,8 +1,8 @@
-- name: Install and run catalogue
+- name: Install and run nginx
   hosts: web
   become: yes
   tasks:
-  - name: Install catalogue
+  - name: Install nginx
     ansible.builtin.package:
-      name: catalogue
+      name: nginx
       state: present
