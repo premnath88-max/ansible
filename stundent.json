@@ -1,0 +1,23 @@
+{
+
+    "STUDENTS": {
+    "first name": "Bandi premnath",
+    "DOB": "1993-09-18",
+    "Gender": "Male",
+    "Address":[
+        {
+            "Type":"Permanant",
+            "Flatno":"HNO 6-471",
+            "Street":"Chintal",
+            "State":"Telanagana",
+
+        },
+
+    ],
+
+    "Skills":["Linux","VCS","VXVM"]
+
+}
+}
+
+

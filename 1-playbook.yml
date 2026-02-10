@@ -1,0 +1,20 @@
+---
+- name: "Bandi Premnath"
+  DOB: "1993-09-18"
+  MobileNo: "7097759100"
+  Address:  
+  - flatno: 23
+    City: "Hyderabd"
+    State: "Telanagana"
+    Type: "Permanannt"
+
+
+- name: "Bandi Premnath"
+  DOB: "1993-09-18"
+  MobileNo: "7097759100"
+  Address:  
+  - flatno: 23
+    City: "Hyderabd"
+    State: "Telanagana"
+    Type: "Permanannt"
+
