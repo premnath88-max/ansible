@@ -1,3 +1,5 @@
+#we can give info from CLI
+
 - name: print username and password
   hosts: local
   connection: local
