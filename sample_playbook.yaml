@@ -1,5 +1,6 @@
 - name: Hello Premnath
   hosts: web
+  become: yes
   tasks:
   - name: Print Premnath
     ansible.builtin.debug:
