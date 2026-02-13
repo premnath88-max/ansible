@@ -2,7 +2,7 @@
   hosts: local
   connection: local
   tasks:
-  - name: Print variables from arguments
+- name: Print variables from arguments
   ansible.builtin.debug:
     msg: "Hi {{ NAME }}, How are you !!!!"
 
