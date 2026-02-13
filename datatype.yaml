@@ -2,10 +2,10 @@
   hosts: local
   connection: local
   vars:
-  PROGRAM: "Devops with AWS" #String
-  DURATION: 140 #NUM/INT
-  IS_LIVE: true
-  DETAILS:
+    PROGRAM: "Devops with AWS" #String
+    DURATION: 140 #NUM/INT
+    IS_LIVE: true
+    DETAILS:
     MONTHS: 4
     TRAINER: "Premnath"
     TOPIS:
