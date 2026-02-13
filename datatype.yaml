@@ -1,6 +1,6 @@
 - name: demo on data types
   hosts: local
-  connections: local
+  connection: local
   vars:
   PROGRAM: "Devops with AWS" #String
   DURATION: 140 #NUM/INT
