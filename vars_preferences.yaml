@@ -3,8 +3,8 @@
   connection: local
   vars:
     NAME: "ansible from PLAY"
-  vars_files:
-  - course.yaml
+  # vars_files:
+  # - course.yaml
   vars_prompt:
   - name: NAME
     prompt: Please enter name
@@ -19,7 +19,7 @@
 
 # 1. Args
 # 2. Task
-# 3. 
+# 3. File
 #
 #
 #      
