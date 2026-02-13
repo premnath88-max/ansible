@@ -14,9 +14,9 @@
       - Devops
       - Shell
   tasks:
-    - name: print variable
-      ansible.builtin.debug:
-      msg: |
+  - name: print variables
+    ansible.builtin.debug:
+     msg: |
         program: {{ PROGRAM }}
         Duration: {{ DURATION }}
         Is_live: {{ IS_LIVE }}
