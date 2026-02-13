@@ -1,7 +1,7 @@
 - name: variable preference
   hosts: local
   connection: local
-  Vars:
+  vars:
     NAME: "ansible from PLAY"
   vars_files:
   - course.yaml
@@ -14,4 +14,4 @@
     vars:
       NAME: "Asnible from task"
     ansible.builtin.debug:
-      msg: "Hi {{ NAME }}"   
+      msg: "Hi {{ NAME }}"  
