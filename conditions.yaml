@@ -1,4 +1,4 @@
-- name: Demo on Conditions
+- name: "Demo on Conditions"
   hosts: local
   connection: local
   vars:
