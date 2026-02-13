@@ -14,4 +14,4 @@
     vars:
       NAME: "Ansible from task"
       ansible.builtin.debug:
-      msg: "Hi {{ NAME }},How are you"
+      msg: "Hi {{ NAME }}"
