@@ -2,10 +2,10 @@
   hosts:  local
   connection: local
   vars:
-   NUMBER_OF _LESSONS: 7
+   NUMBER_OF_LESSONS: 7
   tasks:
   - name: Number of ansible lessons more than 5
   ansible.builtin.debug:
-  msg: "Yes,Number of ansible lessons ,More than 5"
-  when: NUMBER_OF _LESSONS > 5
+    msg: "Yes,Number of ansible lessons ,More than 5"
+  when: NUMBER_OF_LESSONS > 5
 
