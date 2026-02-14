@@ -14,7 +14,7 @@
 
   - name: Check Debian or not
     ansible.builtin.debug:
-      msg:"Yes,Package management is Debain"
+      msg: "Yes,Package management is Debain"
     when:  ansible_facts.os_family == "Debain"      
 
   
