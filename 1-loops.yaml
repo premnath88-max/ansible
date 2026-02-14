@@ -1,13 +1,12 @@
-- name: demo on loops
+- name: Install packages
   hosts: local
   connection: local
   tasks:
-  - name: Print names
-    ansible.builtin.debug:
-      msg: "Hello {{ item }}"
-    loop:
-    - Prem
-    - Koti
-    - Rasm
-    - Aruna
-    - Hanvika  
+  - name: Intall Packages
+  ansible.builtin.package:
+    name: "Installing {{ item }}"
+    state: present
+  loop:
+  - nginx
+  - zip
+  - mysql  
