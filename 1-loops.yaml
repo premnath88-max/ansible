@@ -3,10 +3,10 @@
   connection: local
   tasks:
   - name: Intall Packages
-  ansible.builtin.package:
-    name: "Installing {{ item }}"
-    state: present
-  loop:
-  - nginx
-  - zip
-  - mysql  
+    ansible.builtin.package:
+      name: "Installing {{ item }}"
+      state: present
+    loop:
+    - nginx
+    - zip
+    - mysql  
