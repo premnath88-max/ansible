@@ -1,10 +1,10 @@
-- name: Demo on loops
+- name: demo on loops
   hosts: local
   connection: local
   tasks:
   - name: Print names
     ansible.builtin.debug:
       msg: "Hello {{ item }}"
-  loop:
-  - Prem
-  - Koti  
+    loop:
+    - Prem
+    - Koti  
