@@ -1,4 +1,4 @@
-- name : Number of Ansible lessons greater than 5
+- name : Number of Ansible lessons less than 5
   hosts: local
   connection: local
   vars:
@@ -8,6 +8,10 @@
     ansible.builtin.debug:
       msg: "Yes, greater than 5"
     when: NUMBER_LESSONS > 7
+
+
+
+  
 
 
 
