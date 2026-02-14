@@ -7,4 +7,7 @@
       msg: "Hello {{ item }}"
     loop:
     - Prem
-    - Koti  
+    - Koti
+    - Rasm
+    - Aruna
+    - Hanvika  
