@@ -5,7 +5,7 @@
    NUMBER_OF_LESSONS: 7
   tasks:
   - name: Number of ansible lessons more than 5
-  ansible.builtin.debug:
+    ansible.builtin.debug:
     msg: "Yes,Number of ansible lessons ,More than 5"
   when: NUMBER_OF_LESSONS > 5
 
