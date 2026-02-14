@@ -2,7 +2,7 @@
   hosts:  local
   connection: local
   vars:
-  NUMBER_OF _LESSONS: 7
+   NUMBER_OF _LESSONS: 7
   tasks:
   -name: Number of ansible lessons more than 5
   msg: "Yes,Number of ansible lessons ,More than 5"
