@@ -2,7 +2,7 @@
   hosts: local
   connection: local
   vars:
-  NUMBER_LESSONS : 7
+    NUMBER_LESSONS : 7
   tasks:
   - name: Number of Ansible lessons greater than 5
     ansible.builtin.debug:
